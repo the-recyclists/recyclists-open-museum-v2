@@ -38,7 +38,7 @@ async function initMap() {
   })
 
   const centraal_content = `
-  <h2> Title </h2>
+  <h2><a href="places/centraal"> Centraal Station </a></h2>
   <p> content </p>
   <a href="places/centraal">link to page</a>
   `
@@ -60,7 +60,7 @@ async function initMap() {
   })
 
   const sint_antonies_content = `
-  <h2> antonies </h2>
+  <h2><a href="places/sint_antonies"> Sint Antoniesbreestraat </a></h2>
   <p> content </p>
   <a href="places/sint_antonies">link to page</a>
   `
@@ -82,7 +82,7 @@ async function initMap() {
   })
 
   const frans_halstraat_content = `
-  <h2> frans </h2>
+  <h2><a href="places/frans_halstraat"> Frans Halstraat </a></h2>
   <p> content </p>
   <a href="places/frans_halstraat">link to page</a>
   `
@@ -104,7 +104,7 @@ async function initMap() {
   })
 
   const alexander_content = `
-  <h2> alexander </h2>
+  <h2><a href="places/alexander"> Alexanderplein </a></h2>
   <p> content </p>
   <a href="places/alexander">link to page</a>
   `
@@ -126,7 +126,7 @@ async function initMap() {
   })
 
   const waterkersweg_content = `
-  <h2> waterkersweg </h2>
+  <h2><a href="places/waterkersweg"> Waterkersweg </a></h2>
   <p> content </p>
   <a href="places/waterkersweg">link to page</a>
   `
@@ -148,7 +148,7 @@ async function initMap() {
   })
 
   const nesciobrug_content = `
-  <h2> nesciobrug </h2>
+  <h2><a href="places/nesciobrug"> Nesciobrug </a></h2>
   <p> content </p>
   <a href="places/nesciobrug">link to page</a>
   `
@@ -170,7 +170,7 @@ async function initMap() {
   })
 
   const gelderlandplein_content = `
-  <h2> gelderlandplein </h2>
+  <h2><a href="places/gelderlandplein"> Gelderlandplein </a></h2>
   <p> content </p>
   <a href="places/gelderlandplein">link to page</a>
   `
@@ -192,7 +192,7 @@ async function initMap() {
   })
 
   const lelylaan_content = `
-  <h2> lelylaan </h2>
+  <h2><a href="places/lelylaan"> Lelylaan </a></h2>
   <p> content </p>
   <a href="places/lelylaan">link to page</a>
   `
@@ -214,7 +214,7 @@ async function initMap() {
   })
 
   const heemstedestraat_content = `
-  <h2> heemstedestraat </h2>
+  <h2><a href="places/heemstedestraat"> Heemstedestraat </a></h2>
   <p> content </p>
   <a href="places/heemstedestraat">link to page</a>
   `
@@ -236,7 +236,7 @@ async function initMap() {
   })
 
   const roeterseiland_content = `
-    <h2> roeterseiland </h2>
+    <h2><a href="places/roeterseiland"> Roeterseiland </a></h2>
     <p> content </p>
     <a href="places/roeterseiland">link to page</a>
     `
