@@ -1,19 +1,30 @@
 {% extends "base.html" %}
 {% block content %}
 <main class="content">
+  <h1>List of locations by district</h1>
 
-  .<!-- Hover added -->
   <section class="place-section">
-    <h3>Historic Center</h3>
+    <h3>Center</h3>
     <ul class="list-group">
       <li class="list-group-item list-group-item-action">
-        <a class="list-link" href="">
+        <a class="list-link" href="{{ url_for("alexander") }}">
+          Alexanderplein
+        </a>
+      </li>
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="{{ url_for("centraal") }}">
           Central Station
         </a>
       </li>
       <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="{{ url_for("frans_halstraat") }}">
+          Frans Halstraat
+        </a>
+      </li>
+
+      <li class="list-group-item list-group-item-action">
         <a class="list-link" href="">
-          Sint Antoniesbreestraat
+          Huis Pinto
         </a>
       </li>
       <li class="list-group-item list-group-item-action">
@@ -21,25 +32,55 @@
           Huis Pinto
         </a>
       </li>
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="">
+          Huis Pinto
+        </a>
+      </li>
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="">
+          Huis Pinto
+        </a>
+      </li>
+
     </ul>
   </section>
 
   <section class="place-section">
-    <h3>Pre-War</h3>
+    <h3>West</h3>
     <ul class="list-group">
       <li class="list-group-item list-group-item-action">
-        Frans Halstraat (De Pijp)
+        <a class="list-link" href="{{ url_for("heemstedestraat") }}">
+          Heemstedestraat
+        </a>
       </li>
       <li class="list-group-item list-group-item-action">
-        Alexanderplein
-      </li>
-      <li class="list-group-item list-group-item-action">
-        Waterkersweg
+        <a class="list-link" href="{{ url_for("lelylaan") }}">
+          Lelylaan
+        </a>
       </li>
     </ul>
   </section>
 
+  <section class="place-section">
+    <h3>Zuid</h3>
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="{{ url_for("gelderlandplein") }}">
+          Gelderlandplein
+        </a>
+      </li>
+    </ul>
 
+    <section class="place-section">
+      <h3>Zuid</h3>
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-action">
+          <a class="list-link" href="">
 
+          </a>
+        </li>
+      </ul>
+    </section>
 </main>
 {% endblock %}
