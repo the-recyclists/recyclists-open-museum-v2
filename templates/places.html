@@ -4,18 +4,76 @@
   <h1>List of locations by district</h1>
 
   <section class="place-section">
-    <h3>Center</h3>
+    <h3>Centrum</h3>
     <ul class="list-group">
+
       <li class="list-group-item list-group-item-action">
         <a class="list-link" href="{{ url_for("alexander") }}">
           Alexanderplein
         </a>
       </li>
+
       <li class="list-group-item list-group-item-action">
         <a class="list-link" href="{{ url_for("centraal") }}">
           Central Station
         </a>
       </li>
+
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="{{ url_for("roeterseiland") }}">
+          Roeterseiland Campus
+        </a>
+      </li>
+
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="{{ url_for("sint_antonies") }}">
+          Sint Antoniesbreestraat
+        </a>
+      </li>
+
+    </ul>
+  </section>
+
+  <section class="place-section">
+    <h3>Oost</h3>
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="{{ url_for("nesciobrug") }}">
+          Nesciobrug
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="place-section">
+    <h3>West</h3>
+    <ul class="list-group">
+
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="{{ url_for("heemstedestraat") }}">
+          Heemstedestraat
+        </a>
+      </li>
+
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="{{ url_for("lelylaan") }}">
+          Lelylaan
+        </a>
+      </li>
+
+      <li class="list-group-item list-group-item-action">
+        <a class="list-link" href="{{ url_for("waterkersweg") }}">
+          Waterkersweg
+        </a>
+      </li>
+
+    </ul>
+  </section>
+
+  <section class="place-section">
+    <h3>Zuid</h3>
+    <ul class="list-group">
+
       <li class="list-group-item list-group-item-action">
         <a class="list-link" href="{{ url_for("frans_halstraat") }}">
           Frans Halstraat
@@ -23,64 +81,13 @@
       </li>
 
       <li class="list-group-item list-group-item-action">
-        <a class="list-link" href="">
-          Huis Pinto
-        </a>
-      </li>
-      <li class="list-group-item list-group-item-action">
-        <a class="list-link" href="">
-          Huis Pinto
-        </a>
-      </li>
-      <li class="list-group-item list-group-item-action">
-        <a class="list-link" href="">
-          Huis Pinto
-        </a>
-      </li>
-      <li class="list-group-item list-group-item-action">
-        <a class="list-link" href="">
-          Huis Pinto
-        </a>
-      </li>
-
-    </ul>
-  </section>
-
-  <section class="place-section">
-    <h3>West</h3>
-    <ul class="list-group">
-      <li class="list-group-item list-group-item-action">
-        <a class="list-link" href="{{ url_for("heemstedestraat") }}">
-          Heemstedestraat
-        </a>
-      </li>
-      <li class="list-group-item list-group-item-action">
-        <a class="list-link" href="{{ url_for("lelylaan") }}">
-          Lelylaan
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section class="place-section">
-    <h3>Zuid</h3>
-    <ul class="list-group">
-      <li class="list-group-item list-group-item-action">
         <a class="list-link" href="{{ url_for("gelderlandplein") }}">
           Gelderlandplein
         </a>
       </li>
+
     </ul>
+  </section>
 
-    <section class="place-section">
-      <h3>Zuid</h3>
-      <ul class="list-group">
-        <li class="list-group-item list-group-item-action">
-          <a class="list-link" href="">
-
-          </a>
-        </li>
-      </ul>
-    </section>
 </main>
 {% endblock %}

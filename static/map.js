@@ -39,8 +39,10 @@ async function initMap() {
 
   const centraal_content = `
   <h2><a href="places/centraal"> Centraal Station </a></h2>
-  <p> content </p>
-  <a href="places/centraal">link to page</a>
+  <p> Go to Centraal Station and learn about shared traffic spaces. </p>
+  <a href="places/centraal" type="button" class="btn btn-success">
+  I am a Centraal Station, take me to the content page
+  </a>
   `
 
   centraal_marker.addListener("click", () => {
@@ -61,8 +63,10 @@ async function initMap() {
 
   const sint_antonies_content = `
   <h2><a href="places/sint_antonies"> Sint Antoniesbreestraat </a></h2>
-  <p> content </p>
-  <a href="places/sint_antonies">link to page</a>
+  <p> Go to Sint Antoniesbreestraat</p>
+  <a href="places/sint_antonies" type="button" class="btn btn-success">
+  link to page
+  </a>
   `
 
   sint_antonies_marker.addListener("click", () => {
@@ -149,8 +153,10 @@ async function initMap() {
 
   const nesciobrug_content = `
   <h2><a href="places/nesciobrug"> Nesciobrug </a></h2>
-  <p> content </p>
-  <a href="places/nesciobrug">link to page</a>
+  <p> Go to Nesciobrug, the impressive bicycle bridge. </p>
+  <a href="places/nesciobrug" type="button" class="btn btn-success">
+  I am at Nesciobrug, take me to the content page
+  </a>
   `
 
   nesciobrug_marker.addListener("click", () => {

@@ -6,6 +6,20 @@ h1 {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    margin-top: 0.25em;
+
+}
+
+nav {
+    margin-bottom: 2em;
 }
 
 .content {
