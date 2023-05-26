@@ -11,8 +11,12 @@
     The Urban Cycling Institute offers online courses about the future of human mobility
     in cities, and how to make a difference.
   </p>
-  <a href="https://urbancyclinginstitute.com/online-courses/">
+  <a href="https://urbancyclinginstitute.com/online-courses/" type="button"
+    class="btn btn-success" id="learn_more_button">
     Urban cycling coursera courses
   </a>
 </main>
+{% endblock %}
+{% block js %}
+<script type="module" src="{{ url_for('static', filename='button.js') }}"></script>
 {% endblock %}
