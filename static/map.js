@@ -39,9 +39,9 @@ async function initMap() {
 
   const centraal_content = `
   <h2><a href="places/centraal"> Centraal Station </a></h2>
-  <p> Go to Centraal Station and learn about shared traffic spaces. </p>
+  <p> Go to Centraal Station and learn about shared traffic spaces! </p>
   <a href="places/centraal" type="button" class="btn btn-success">
-  I am a Centraal Station, take me to the content page
+  I am at Centraal Station, take me to the content page
   </a>
   `
 
@@ -63,9 +63,9 @@ async function initMap() {
 
   const sint_antonies_content = `
   <h2><a href="places/sint_antonies"> Sint Antoniesbreestraat </a></h2>
-  <p> Go to Sint Antoniesbreestraat</p>
+  <p> Go to Sint Antoniesbreestraat to learn about the Amsterdam of the 70s! </p>
   <a href="places/sint_antonies" type="button" class="btn btn-success">
-  link to page
+  I am at Sint Antoniesbreestraat, take me to the content page
   </a>
   `
 
@@ -87,8 +87,10 @@ async function initMap() {
 
   const frans_halstraat_content = `
   <h2><a href="places/frans_halstraat"> Frans Halstraat </a></h2>
-  <p> content </p>
-  <a href="places/frans_halstraat">link to page</a>
+  <p> Go to Frans Halstraat to explore De Pijp neighbourhood! </p>
+  <a href="places/frans_halstraat" type="button" class="btn btn-success">
+  I am at Frans Halstraat, take me to the content page
+  </a>
   `
 
   frans_halstraat_marker.addListener("click", () => {
@@ -109,8 +111,10 @@ async function initMap() {
 
   const alexander_content = `
   <h2><a href="places/alexander"> Alexanderplein </a></h2>
-  <p> content </p>
-  <a href="places/alexander">link to page</a>
+  <p> Go to Alexanderplein to learn more about the city's traffic intersections! </p>
+  <a href="places/alexander" type="button" class="btn btn-success">
+  I am at Alexanderplein, take me to the content page
+  </a>
   `
 
   alenxander_marker.addListener("click", () => {
@@ -131,8 +135,10 @@ async function initMap() {
 
   const waterkersweg_content = `
   <h2><a href="places/waterkersweg"> Waterkersweg </a></h2>
-  <p> content </p>
-  <a href="places/waterkersweg">link to page</a>
+  <p> Go to Waterkersweg and see what a "car-free" neighbourhood is like! </p>
+  <a href="places/waterkersweg" type="button" class="btn btn-success">
+  I am at Waterkersweg, take me to the content page
+  </a>
   `
 
   waterkersweg_marker.addListener("click", () => {
@@ -153,9 +159,9 @@ async function initMap() {
 
   const nesciobrug_content = `
   <h2><a href="places/nesciobrug"> Nesciobrug </a></h2>
-  <p> Go to Nesciobrug, the impressive bicycle bridge. </p>
+  <p> Go to Nesciobrug and stand on most expensive bicycle bridge of the Netherlands! </p>
   <a href="places/nesciobrug" type="button" class="btn btn-success">
-  I am at Nesciobrug, take me to the content page
+  I am on the Nesciobrug, take me to the content page
   </a>
   `
 
@@ -177,8 +183,10 @@ async function initMap() {
 
   const gelderlandplein_content = `
   <h2><a href="places/gelderlandplein"> Gelderlandplein </a></h2>
-  <p> content </p>
-  <a href="places/gelderlandplein">link to page</a>
+  <p> Go to Gelderlandplein to see what a “mall” in the Netherlands is like! </p>
+  <a href="places/gelderlandplein" type="button" class="btn btn-success">
+  I am at Gelderlandplein, take me to the content page
+  </a>
   `
 
   gelderlandplein_marker.addListener("click", () => {
@@ -199,8 +207,10 @@ async function initMap() {
 
   const lelylaan_content = `
   <h2><a href="places/lelylaan"> Lelylaan </a></h2>
-  <p> content </p>
-  <a href="places/lelylaan">link to page</a>
+  <p> Go to Lelylaan and learn about the “OV-Fiets”! </p>
+  <a href="places/lelylaan" type="button" class="btn btn-success">
+  I am at Lelylaan, take me to the content page
+  </a>
   `
 
   lelylaan_marker.addListener("click", () => {
@@ -221,8 +231,10 @@ async function initMap() {
 
   const heemstedestraat_content = `
   <h2><a href="places/heemstedestraat"> Heemstedestraat </a></h2>
-  <p> content </p>
-  <a href="places/heemstedestraat">link to page</a>
+  <p> Go to Heemstedestraat and see how streets are evolving in Amsterdam, even today! </p>
+  <a href="places/heemstedestraat" type="button" class="btn btn-success">
+  I am at Heemstedestraat, take me to the content page
+  </a>
   `
 
   heemstedestraat_marker.addListener("click", () => {
@@ -243,8 +255,10 @@ async function initMap() {
 
   const roeterseiland_content = `
     <h2><a href="places/roeterseiland"> Roeterseiland </a></h2>
-    <p> content </p>
-    <a href="places/roeterseiland">link to page</a>
+    <p> Go to the Roeterseilandcampus to learn about bike storage solutions! </p>
+    <a href="places/roeterseiland" type="button" class="btn btn-success">
+    I am in Roeterseiland, take me to the content page
+    </a>
     `
 
   roeterseiland_marker.addListener("click", () => {
